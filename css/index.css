@@ -26,3 +26,18 @@ div#content{
     margin-left: auto;
     margin-right: auto;
 }
+
+table{
+    border:double 10px #d98e04;
+}
+
+#navBar{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+body{
+    background-color: black;
+    color: chocolate;
+}
