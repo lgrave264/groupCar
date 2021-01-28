@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Market</title>
+    <style>
+        div#mainDiv{
+            display: grid;
+            grid-template-areas: 
+            'logo navbar'
+            'shop shop';
+            grid-template-columns: '5% 75%';
+            grid-gap: 1rem;
+        }
+        div#logo{
+            grid-area: logo;
+            position: sticky;
+            top: 1rem;
+        }
+        div#navbar{
+            grid-area: navbar;
+            position: sticky;
+            top: 1rem;
+            height: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <table width="100px" align="left">
+            <tr>
+                <td align="center"><img src="images/fakelogo.png" height="80px" width="80px"></td>
+            </tr>
+        </table>
+        <table width="1400px" align="right" style="margin-top:20px;">
+            <tr>
+                <td align="center" id="navBar"><a href="index.html">Home</a></td>
+                <td align="center" id="navBar"><a href="gallery.html">Gallery</a></td>
+                <td align="center" id="navBar"><a href="Market.html">Market</a></td>
+                <td align="center" id="navBar"><a href="Info.html">Info</a></td>    
+            </tr>
+        </table>
+    </div>
+    <div id="shop">
+        <div class="shopItem">
+            test
+        </div>
+        <div class="shopItem">
+            test
+        </div>
+        <div class="shopItem">
+            test
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

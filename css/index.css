@@ -1,5 +1,9 @@
 body{
-    background-color: black;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23333333' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23666666' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23999999' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23cccccc' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23ffffff' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 div#mainDiv{
     display: grid;
@@ -11,7 +15,6 @@ div#mainDiv{
 }
 div#logo{
     grid-area: logo;
-    background-color: #BF6B04;
     position: sticky;
     top: 1rem;
 }
@@ -20,13 +23,15 @@ div#navbar{
     position: sticky;
     top: 1rem;
     height: 5rem;
-    background-color: #BF6B04;
 }
 div#navbar li{
     display: inline;
     margin-right: 15%;
     font-size: 2rem;
     font-weight: bold;
+}
+a{
+    color: white;
 }
 div#content{
     grid-area: mainContent;
@@ -46,11 +51,6 @@ table{
     text-decoration: underline;
 }
 
-body{
-    background-color: black;
-    color: chocolate;
-}
-
 div#galleryDiv{
     display: grid;
     grid-template-areas:
@@ -65,12 +65,14 @@ div#carList{
     height: 30rem;
     padding: 1rem;
     overflow: auto;
+    border: black 2px solid;
 }
 div#carDisplay{
     grid-area: carDisplay;
     background-color: #BF6B04;
     width: 145%;
     padding: 1rem;
+    border: black 2px solid;
 }
 
 div#carListItem{
@@ -78,8 +80,16 @@ div#carListItem{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(100,100,100,0.5);
+    background-color: #8C4E03;
     padding: 1rem;
     height: 4rem;
     margin-bottom: 1rem;
+}
+
+div#shop{
+    width: 100%;
+    background-color: #BF6B04;
+}
+div.shopItem{
+    width: 33%;
 }

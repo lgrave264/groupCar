@@ -8,37 +8,22 @@
 </head>
 <body>
     <div id="galleryDiv">
-        <div id="logo">
-            this is where the logo will go
-        </div>
-        <div id="navbar">
-            <ul style="list-style-type: none; margin-top: 1.25rem;">
-                <li>Home</li>
-                <li>Gallery</li>
-                <li>Market</li>
-                <li>Info</li>
-            </ul>
-        </div>
-        <div id="carList">
-            <div id="carListItem">
-                test
-            </div>
-            <div id="carListItem">
-                test
-            </div>
-        </div>
-        <div id="carDisplay">
-            <table style="width: 100%;">
-                <tr>
-                    <td rowspan="2">Img</td>
-                    <td style="width: 50%;">Name</td>
-                </tr>
-                <tr>
-                    <td style="width: 50%;">Price</td>
-                </tr>
-            </table>
-            <p>Description</p>
-        </div>
+        <table width="100px" align="left">
+            <tr>
+                <td align="center"><img src="images/fakelogo.png" height="80px" width="80px"></td>
+            </tr>
+        </table>
+        <table width="1400px" align="right" style="margin-top:20px; margin-left: 20px;">
+            <tr>
+                <td align="center" id="navBar"><a href="index.html">Home</a></td>
+                <td align="center" id="navBar"><a href="gallery.html">Gallery</a></td>
+                <td align="center" id="navBar"><a href="Market.html">Market</a></td>
+                <td align="center" id="navBar"><a href="Info.html">Info</a></td>    
+            </tr>
+        </table>
+        <div id="carList"></div>
+        <div id="carDisplay"></div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
