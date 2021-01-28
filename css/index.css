@@ -43,6 +43,11 @@ div#content{
 
 table{
     border:double 10px #d98e04;
+    background-color: black;
+}
+
+a{
+    color: white;
 }
 
 #navBar{
